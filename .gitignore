@@ -1,0 +1,10 @@
+node_modules/
+contracts/artifacts/
+contracts/*/artifacts/
+tests/
+scripts/
+.deps/
+.env
+#Hardhat files
+cache
+artifacts
