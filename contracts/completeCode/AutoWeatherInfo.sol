@@ -107,11 +107,12 @@ contract AutoWeatherInfo is ChainlinkClient {
      * @param _link the LINK token address.
      * @param _oracle the Operator.sol contract address.
      */
-    // Ethereum Goerli Testnet
+    // Polygon Mumbai Testnet
     // Constructorに渡すアドレス
     // _LINK(LINK Token Address): 0x326C977E6efc84E512bB9C30f76E30c160eD06FB
     // 以下、External Adapterの不具合が発生していたため、対応として独自構築したアドレスに変更
-    // _ORACLE(Operator Address): 0x5347EE1D2D2b0E69C3dE5C06357cA04bAe51B5C7
+    // _ORACLE(Operator Address): 0x180ad6758CB9AEe034A298aE7a2C9EB77eC4ae84
+
      constructor(address _link, address _oracle) {
         setChainlinkToken(_link);
         setChainlinkOracle(_oracle);
